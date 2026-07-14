@@ -1,0 +1,63 @@
+## [Visual Studio / .NET Core]
+# Build results
+[Dd]ebug/
+[Dd]ebugPS/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]R[Mm]/
+[Aa]R[Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Log]s/
+
+# Visual Studio cache, preferences, and user-specific settings
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+## [Tools / IDEs]
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local user-specific settings (e.g. Docker, WSL)
+.devcontainer/
+
+## [Databases & Local Dev]
+# Avoid committing local SQLite database files (if you use SQLite locally)
+*.db
+*.sqlite
+*.sqlite3
+
+# Avoid committing local secrets and sensitive settings
+# (Keep appsettings.json, but IGNORE appsettings.Development.json if it contains local secrets)
+# appsettings.Development.json # Uncomment this if you put real database passwords/keys here
+
+# Secrets Manager (where dotnet user-secrets saves keys locally)
+secrets.json
+
+## [OS / System Files]
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
